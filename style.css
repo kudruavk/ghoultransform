@@ -1,0 +1,100 @@
+body{
+    background: rgb(89, 110, 148);
+}
+.main{
+    background:rgb(0, 4, 65);
+    width: 23%;
+    border-radius: 10PX;
+}
+li{
+    color:white;
+    padding: 5px;
+}
+.main:hover{
+    width: 75%;
+    transition: 3s;
+}
+.transform{
+    background:rgb(0, 4, 65);
+    width: 75%;
+    height: 200px;
+    border-radius: 10PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.small{
+    padding: 15px;
+    margin: 180px;
+    width: 64px;
+    height: 64px;
+    background-image: url(https://i.ibb.co/GvGMyhw/1811-tg-grimeye.png);
+    transform:skew(15deg, 5deg);
+    animation-name: transformation;
+    animation-duration:2s;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes transformation{
+    0%{
+        transform:skew(15deg, 5deg)
+    }
+    50%{
+        transform:skew(0deg, 0deg)
+    }
+    100%{
+        transform: skew(-15deg, -5deg);
+    }
+}
+.cssbckg{
+    height: 450px;
+    width: 100%;
+    border:2px solid black;
+    background-image: url(https://i.pinimg.com/originals/6f/2d/34/6f2d34fe6c8746c56c14fbc55308ef99.jpg);
+    opacity: 0.55;
+}.picture{
+    display: flex;
+    justify-content: center;
+}
+.pictureimg{
+    border: 2px solid black;
+    
+}
+.Universes{
+    display: flex;
+    flex-direction: row;
+}
+.firstimg{
+    width: 300px;
+    height: 181px;
+    border: 2px solid black;
+}
+.secimg{
+    width: 600px;
+    height: 350px;
+    border: 2px solid black;
+}
+.thirdimg{
+    width: 920px;
+    height: 635px;
+    border: 2px solid black;
+}
+.universe{
+    display: flex;
+    flex-direction: column;
+}
+.marvelimages{
+    width: 400px;
+    height: 250px;
+   float: left;
+    margin: 15px;
+}
+p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.textsprava{
+    float: right;
+}
